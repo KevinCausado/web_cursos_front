@@ -9,10 +9,13 @@ export default async function Home() {
 
   return (
     <div className="{styles.container}">
-      <h1>Mi web de cursos</h1>
-      <div>
+      <h1>Mi web de cursos</h1>      
         {courses.map((course) => <p key={course.id}>{course.name}</p> )}
-      </div>
+      
     </div>
   );
 }
+
+
+
+
