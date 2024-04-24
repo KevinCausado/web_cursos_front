@@ -2,7 +2,7 @@
 // import styles from "./page.module.css";
 "use client"
 
-import { getCourses } from "@/libs/getCourses";
+import {getCourses} from '@/libs/getCourses'
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 
